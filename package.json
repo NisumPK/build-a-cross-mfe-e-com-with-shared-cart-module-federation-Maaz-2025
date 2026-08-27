@@ -1,0 +1,57 @@
+{
+  "name": "cross-mfe-ecommerce",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "shared",
+    "host",
+    "catalog-mfe",
+    "cart-mfe"
+  ],
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "setup": "npm install",
+    "dev": "node scripts/run-all.mjs dev",
+    "dev:host": "npm run dev --workspace @mfe/host",
+    "dev:catalog": "npm run dev --workspace @mfe/catalog",
+    "dev:cart": "npm run dev --workspace @mfe/cart",
+    "build": "npm run build:shared && npm run build:catalog && npm run build:cart && npm run build:host",
+    "build:shared": "npm run build --workspace @mfe/shared",
+    "build:host": "npm run build --workspace @mfe/host",
+    "build:catalog": "npm run build --workspace @mfe/catalog",
+    "build:cart": "npm run build --workspace @mfe/cart",
+    "preview": "node scripts/run-all.mjs preview",
+    "preview:host": "npm run preview --workspace @mfe/host",
+    "preview:catalog": "npm run preview --workspace @mfe/catalog",
+    "preview:cart": "npm run preview --workspace @mfe/cart",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "eslint . --max-warnings=0",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "verify": "npm run lint && npm run typecheck && npm test && npm run build"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@testing-library/jest-dom": "6.9.1",
+    "@testing-library/dom": "10.4.1",
+    "@testing-library/react": "16.3.2",
+    "@testing-library/user-event": "14.6.6",
+    "@types/node": "20.19.43",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.5",
+    "@vitest/coverage-v8": "4.1.10",
+    "eslint": "10.9.1",
+    "eslint-plugin-react-hooks": "7.1.1",
+    "eslint-plugin-react-refresh": "0.5.4",
+    "globals": "17.11.0",
+    "jsdom": "26.1.0",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.68.0",
+    "vite": "8.2.0",
+    "vitest": "4.1.10"
+  }
+}

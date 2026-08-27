@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title">
+  <title id="title">Orbit speaker illustration</title>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d9f6ff"/><stop offset="1" stop-color="#48a9c6"/></linearGradient><radialGradient id="cone"><stop stop-color="#72d5ef"/><stop offset=".25" stop-color="#193d52"/><stop offset="1" stop-color="#0b2334"/></radialGradient></defs>
+  <rect width="640" height="400" rx="36" fill="url(#bg)"/>
+  <rect x="205" y="59" width="230" height="282" rx="53" fill="#102d3d"/>
+  <circle cx="320" cy="220" r="86" fill="url(#cone)" stroke="#a9ecff" stroke-width="8"/>
+  <circle cx="320" cy="220" r="25" fill="#69d3ed"/><circle cx="291" cy="103" r="8" fill="#80dff3"/><circle cx="320" cy="103" r="8" fill="#80dff3"/><circle cx="349" cy="103" r="8" fill="#80dff3"/>
+</svg>

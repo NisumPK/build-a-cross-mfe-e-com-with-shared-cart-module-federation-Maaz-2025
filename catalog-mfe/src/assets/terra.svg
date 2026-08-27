@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title">
+  <title id="title">Terra smart planter illustration</title>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e4f2d0"/><stop offset="1" stop-color="#78a85d"/></linearGradient></defs>
+  <rect width="640" height="400" rx="36" fill="url(#bg)"/>
+  <path d="M260 182c-71-8-98-64-84-120 65 3 112 42 113 111M354 174c7-72 56-111 121-112 9 61-24 111-98 124M321 188c-38-50-23-111 15-149 48 40 55 100 5 151" fill="#2f704b"/>
+  <path d="M321 82v157M215 97l106 115M439 97L329 213" fill="none" stroke="#16482f" stroke-linecap="round" stroke-width="9"/>
+  <path d="M210 204h220l-32 139H242z" fill="#f3eee1" stroke="#5f594d" stroke-width="7"/>
+  <rect x="195" y="190" width="250" height="40" rx="18" fill="#fffaf0"/><circle cx="320" cy="283" r="18" fill="#65a379"/><path d="M320 274v17M312 283h16" stroke="#eff9ee" stroke-width="5"/>
+</svg>

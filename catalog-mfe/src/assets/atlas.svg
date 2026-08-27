@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title">
+  <title id="title">Atlas backpack illustration</title>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c9f1df"/><stop offset="1" stop-color="#397d73"/></linearGradient></defs>
+  <rect width="640" height="400" rx="36" fill="url(#bg)"/>
+  <path d="M246 123c0-54 148-54 148 0v31h-31v-25c0-25-86-25-86 0v25h-31z" fill="#173e3b"/>
+  <rect x="203" y="143" width="234" height="196" rx="53" fill="#225750"/>
+  <path d="M203 219h234v31H203z" fill="#d5a968"/><rect x="251" y="245" width="138" height="69" rx="25" fill="#173e3b"/>
+  <path d="M203 180h-24c-17 0-31 14-31 31v79c0 14 11 25 25 25h30M437 180h24c17 0 31 14 31 31v79c0 14-11 25-25 25h-30" fill="none" stroke="#173e3b" stroke-width="18"/>
+</svg>

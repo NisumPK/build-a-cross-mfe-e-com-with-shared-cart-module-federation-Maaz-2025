@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title">
+  <title id="title">Ember travel mug illustration</title>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffe3c2"/><stop offset="1" stop-color="#f26b3b"/></linearGradient></defs>
+  <rect width="640" height="400" rx="36" fill="url(#bg)"/>
+  <path d="M241 105h158l-14 228H255z" fill="#fff4e5"/><path d="M232 105h176l-17 37H249z" fill="#4d2822"/>
+  <path d="M264 182h112l-5 91H269z" fill="#e65e36"/>
+  <path d="M290 86c-25-31 22-37 0-68M342 86c-25-31 22-37 0-68" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="12" opacity=".75"/>
+</svg>
